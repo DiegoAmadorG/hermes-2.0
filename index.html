@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+			<!--Bootstrap JS-->
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="/main.css">
+            <link rel="stylesheet" href="/main.js">
+		</head>
+		
+		<body>
+            <style type="text/css">
+                 #myVideo {
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                
+                
+                }
+            </style>
+			<!-- The video -->
+			<video autoplay muted loop id="myVideo">
+				<source src="123.webm" type="video/webm">
+			</video>
+			<div class="row">
+				<div class="container-fluid">
+					<div class="col-12 d-block">
+                        <img src="./img/logo.webp" class="logo" alt="Logo">
+        <h1>Because we love music</h1>
+        <div class="Carousel">
+            <div class="slick-list" id="slick-list">
+                <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                </button>
+                <div class="slick-track" id="track">
+                    <div class="slick">
+                        <div>
+                            <a href="/">
+                                <h4><small>Hermes Music mexico</small></h4>
+                                <picture>
+                                    <img src="./img/hermes.123471520.jpg" alt="Image">
+                                </picture>
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="/">
+                                <h4><small>Hermes Music USA</small></h4>
+                                <picture>
+                                    <img src="./img/hermesmusicusa.jpg" alt="Image">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="/">
+                                <h4><small> Fumdación Hermes Music </small></h4>
+                                <picture>
+                                    <img src="./img/fundación.jpg" alt="Image">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                      <div>
+                          <a href="/">
+                              <h4><small> Hermes Music Profecional</small></h4>
+                              <picture>
+                                  <img src="./img/hermesmucicprofecional.jpg" alt="Image">
+                              </picture>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>Music Club</small></h4>
+                            <picture>
+                                <img src="./img/music club.jpeg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>Hermes Music </small>i</h4>
+                            <picture>
+                                <img src="./img/hermes music club.jpg" alt="Image">
+                            </picture>
+
+                        </a>
+                    </div>
+                </div>
+                   
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>Top Music </small>Watch</h4>
+                            <picture>
+                                <img src="./img/top.jpg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+                        <div>
+                            
+                        </div>
+						<div class="col-12 d-block">
+							
+						</div>
+                    
+                        <div class="container">
+                            
+                            <div class="card">
+                                <figure>
+                                    <img src="/img/bongos.webp" alt="">
+                                </figure>
+                                <div class="cotenido">
+                                    <h3>Bongos Jesus Díaz Signature</h3>
+                                    <p> Marca: PEARL <br>PBW-300DXJD-580 PEARL.</br></p>
+                                    <a href="#">Leer mas</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                               <figure>
+                                   <img src="/img/bateria.jpg" alt="">
+                               </figure>
+                               <div class="cotenido">
+                                   <h3>Batería Pearl </h3>
+                                   <p>Batería Pearl Export EXL7PSPCH-222 * Serie Export, 7 piezas.</p>
+                                   <a href="#">Leer mas</a>
+                               </div>
+                           </div>
+                       
+                           <div class="card">
+                               <figure>
+                                   <img src="/img/bateria.jpg" alt="">
+                               </figure>
+                               <div class="cotenido">
+                                   <h3>Batería Pearl</h3>
+                                   <p>Batería 5pz sesión studio select series sts5pzch-405<br>Marca: PEARL </p>
+                                   <a href="#">Leer mas</a>
+                               </div>
+                           </div>
+                       
+                        </div>
+					</div>
+				</div>
+			</div>
+            <footer>
+                <ul class="social_icon">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+                <ul class="menu">
+                    <li><a href="Inicio"></a></li>
+                    <li><a href="Nosotros"></a></li>
+                    <li><a href="Contacto"></a></li>
+                </ul>
+                <p>Copyright 2022, AlbertInstruments, S.A. de C.V. PolÍticas de Privacidad</p> 
+                </footer>
+		</body>
+	</html>
